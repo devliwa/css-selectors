@@ -1,0 +1,30 @@
+ol {
+  list-style-position: inside;
+  margin: -20px 0 0 -40px;
+}
+
+/* TODO 1: Style all <p> elements to be red */
+p {
+  color: crimson;
+}
+
+/* TODO 2: Apply larger text size to elements with class "note" */
+.note {
+  font-size: 20px;
+}
+
+/* TODO 3: Make the element with id "id-selector-demo" green */
+#id-selector-demo {
+  color: limegreen;
+}
+
+/* TODO 4: Color the <li> with attribute value="4" in blue */
+li[value='4'] {
+  color: blue;
+}
+
+/* TODO 5: Apply universal styling */
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
